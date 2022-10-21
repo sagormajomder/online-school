@@ -1,0 +1,40 @@
+/* /////////////// */
+/*  Header        */
+/* /////////////// */
+.header {
+   background-color: var(--color-bg);
+}
+.header--container {
+   height: 9.6rem;
+}
+.header__logo {
+   height: 5.2rem;
+}
+.main-menu {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+}
+.main-menu__link:link,
+.main-menu__link:visited {
+   font-size: var(--p);
+   color: var(--color-black);
+   transition: all 0.3s;
+}
+.main-menu__link:hover,
+.main-menu__link:active {
+   color: var(--color-primary);
+}
+
+.main-menu__link--cta:link,
+.main-menu__link--cta:visited {
+   padding: 1rem 2rem;
+   color: var(--color-white);
+   background-color: var(--color-primary);
+   border-radius: 100px;
+}
+.main-menu__link:hover,
+.main-menu__link:active {
+   background-color: var(--color-primary-shade);
+}
