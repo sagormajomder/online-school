@@ -17,7 +17,7 @@
    --color-black: #000;
 
    /* font Size */
-   --h1: 4.8rem;
+   --h1: 4.4rem;
    --h2: 3.6rem;
    --h3: 3rem;
    --h4: 2.4rem;
@@ -73,8 +73,8 @@ img {
 }
 .grid {
    display: grid;
-   row-gap: 4.8rem;
-   column-gap: 6.4rem;
+   row-gap: 9.6rem;
+   column-gap: 4.8rem;
 }
 .grid:not(:last-child) {
    margin-bottom: 9.6rem;

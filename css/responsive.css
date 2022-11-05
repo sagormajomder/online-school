@@ -1,0 +1,72 @@
+/***********************************/
+/* 1248px = 78em */
+/***********************************/
+
+@media (max-width: 78em) {
+   .container {
+      max-width: 114.4rem;
+   }
+}
+/***********************************/
+/* 1120px = 70em */
+/***********************************/
+@media (max-width: 70em) {
+   html {
+      font-size: 50%;
+   }
+   .primary-heading {
+      font-size: var(--h2);
+   }
+   .secondary-heading {
+      font-size: var(--h3);
+   }
+}
+/***********************************/
+/* 896px = 56em */
+/***********************************/
+@media (max-width: 56em) {
+   html {
+      font-size: 43.75%;
+   }
+   .grid {
+      column-gap: 6.4rem;
+      row-gap: 4.8rem;
+   }
+   .grid--3--cols,
+   .grid--4--cols {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .course-section .grid .course:last-child {
+      max-width: 50%;
+      justify-self: center;
+      grid-column: 1 /-1;
+   }
+   .testimonial-section--content {
+      max-width: 80%;
+   }
+   /* navbar */
+}
+
+/***********************************/
+/* 496px = 31em */
+/***********************************/
+@media (max-width: 31em) {
+   .grid {
+      column-gap: 3.2rem;
+   }
+   .grid--2--cols,
+   .grid--3--cols,
+   .grid--4--cols {
+      grid-template-columns: 1fr;
+   }
+   .hero-section__text {
+      max-width: 100%;
+   }
+   .course-section .grid .course:last-child {
+      max-width: 100%;
+   }
+   .testimonial-section--content {
+      max-width: 100%;
+      flex-direction: column;
+   }
+}

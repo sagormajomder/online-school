@@ -2,14 +2,14 @@
 /*  Header        */
 /* /////////////// */
 .header {
+   min-height: 11.6rem;
    background-color: var(--color-bg);
+   padding: 3.2rem 0;
 }
 .header--container {
-   min-height: 7.6rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 3.2rem;
 }
 .header__logo {
    height: 5.2rem;
@@ -49,6 +49,9 @@
 .hero-section {
    padding: 4.8rem 0 6.4rem 0;
    background-color: var(--color-bg);
+}
+.hero-section__text {
+   max-width: 48rem;
 }
 .hero-section__text .subheading {
    color: var(--color-unique);
