@@ -13,11 +13,12 @@
       <!-- Start Header -->
       <header class="header">
          <div class="container header--container">
-            <img
-               src="./img/icon and logo/Logo.png"
-               alt="online school logo"
-               class="header__logo"
-            />
+            <a href="#"
+               ><img
+                  src="./img/icon and logo/Logo.png"
+                  alt="online school logo"
+                  class="header__logo"
+            /></a>
             <nav class="header_nav">
                <ul class="main-menu">
                   <li><a href="#" class="main-menu__link">Books</a></li>
@@ -31,6 +32,14 @@
                   </li>
                </ul>
             </nav>
+            <!-- Mobile Navigation -->
+            <div class="btn-nav-mobile">
+               <ion-icon class="nav-mobile-icon" name="menu-outline"></ion-icon>
+               <ion-icon
+                  class="nav-mobile-icon"
+                  name="close-outline"
+               ></ion-icon>
+            </div>
          </div>
       </header>
       <!-- End Header -->
@@ -201,18 +210,20 @@
                Testimonial
             </h2>
          </div>
-         <div class="testimonial-section--content">
-            <img
-               src="./img/Photos/Man.png"
-               alt="A man picture"
-               class="testimonial-section--img"
-            />
-            <p class="testimonial-section__text">
-               There are many variations of passages of Lorem Ipsum available,
-               but the majority have suffered alteration in some form, by
-               injected humour, or randomised words which don't look even
-               slightly believable.
-            </p>
+         <div class="container">
+            <div class="testimonial-section--content">
+               <img
+                  src="./img/Photos/Man.png"
+                  alt="A man picture"
+                  class="testimonial-section--img"
+               />
+               <p class="testimonial-section__text">
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the majority have suffered alteration in some
+                  form, by injected humour, or randomised words which don't look
+                  even slightly believable.
+               </p>
+            </div>
          </div>
       </section>
       <!-- End Testimonial Section -->
@@ -257,5 +268,16 @@
          </div>
       </footer>
       <!-- End Footer -->
+      <!-- Custom Js -->
+      <script defer src="./js/app.js"></script>
+      <!-- Ions Icon adding -->
+      <script
+         type="module"
+         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+         nomodule
+         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
    </body>
 </html>

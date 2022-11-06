@@ -44,6 +44,7 @@
 }
 html {
    font-size: 62.5%;
+   overflow-x: hidden;
 }
 
 body {
@@ -53,6 +54,7 @@ body {
    color: var(--color-tertiary);
    box-sizing: border-box;
    font-size: var(--p);
+   overflow-x: hidden;
 }
 
 a:link,

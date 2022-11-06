@@ -5,6 +5,8 @@
    min-height: 11.6rem;
    background-color: var(--color-bg);
    padding: 3.2rem 0;
+
+   position: relative;
 }
 .header--container {
    display: flex;
@@ -42,7 +44,20 @@
 .main-menu__link--cta:active {
    background-color: var(--color-primary-shade);
 }
-
+/* Mobile Navigation */
+.btn-nav-mobile {
+   border: none;
+   background: none;
+   cursor: pointer;
+   display: none;
+}
+.nav-mobile-icon {
+   color: #000;
+   font-size: 3.6rem;
+}
+.nav-mobile-icon[name="close-outline"] {
+   display: none;
+}
 /* /////////////// */
 /*  Hero Section        */
 /* /////////////// */
