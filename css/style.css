@@ -2,7 +2,7 @@
 /*  Header        */
 /* /////////////// */
 .header {
-   min-height: 11.6rem;
+   height: 11.6rem;
    background-color: var(--color-bg);
    padding: 3.2rem 0;
 
@@ -12,6 +12,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   height: 100%;
 }
 .header__logo {
    height: 5.2rem;
@@ -57,6 +58,22 @@
 }
 .nav-mobile-icon[name="close-outline"] {
    display: none;
+}
+/* Sticky Menu */
+.sticky .header {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   width: 100vw;
+   padding: 0 0;
+   height: 7.4rem;
+
+   background-color: rgba(255, 255, 255, 0.95);
+   z-index: 1000;
+   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.07);
+}
+.sticky .hero-section {
+   margin-top: 11.6rem;
 }
 /* /////////////// */
 /*  Hero Section        */
